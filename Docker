@@ -1,0 +1,14 @@
+Perintah wsl --install digunakan untuk melakukan instalasi Windows Subsystem for Linux (WSL) pada sistem operasi Windows agar dapat menjalankan environment Linux secara langsung.
+Perintah wsl --update digunakan untuk memperbarui WSL dan memastikan instalasi WSL sudah berhasil. Jika berhasil akan muncul keterangan “already installed”.
+Turn Windows features on or off digunakan untuk mengaktifkan fitur pendukung Docker seperti:
+Virtual Machine Platform
+Windows Subsystem for Linux
+Docker Desktop adalah aplikasi yang digunakan untuk menjalankan dan mengelola container Docker pada sistem operasi Windows.
+Docker Hub digunakan untuk mencari, mengunduh, dan mengelola image Docker secara online melalui repository publik.
+Perintah docker --version digunakan untuk melihat versi Docker yang telah terinstal pada komputer.
+Perintah docker run hello-world digunakan untuk menguji apakah Docker berhasil terinstal dan container dapat berjalan dengan normal.
+Perintah docker images digunakan untuk menampilkan daftar image Docker yang tersedia pada sistem.
+Perintah docker ps digunakan untuk melihat container Docker yang sedang berjalan.
+Docker Engine merupakan layanan utama pada Docker yang berfungsi untuk menjalankan dan mengelola container.
+Docker Image adalah template atau blueprint yang digunakan untuk membuat container Docker.
+Docker Container merupakan hasil eksekusi dari Docker Image yang berjalan secara terisolasi pada sistem operasi.
